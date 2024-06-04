@@ -1,3 +1,10 @@
+#########################################################################
+# Name: Misha Belle
+# Date: 6/4/24
+# File: main.py
+# Desc: uses turtle module to create lil race of rainbow turtles.
+#########################################################################
+
 from turtle import Turtle, Screen
 import random
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
@@ -19,8 +26,6 @@ def bring_to_start(turtles):
         turtle.penup()
         y_position += space
         turtle.goto(x=-230, y=y_position)
-
-# def race(turtles):
 
 
 is_race_on = False
